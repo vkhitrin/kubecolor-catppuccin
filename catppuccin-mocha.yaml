@@ -1,0 +1,51 @@
+preset: "dark"
+theme:
+  base:
+    info: fg=#cdd6f4
+    primary: fg=#cba6f7
+    secondary: fg=#89dceb
+    success: fg=#a6e3a1:bold
+    warning: fg=#f9e2af:bold
+    danger: fg=#1e1e2e:bold:bg=#f38ba8
+    muted: fg=#7f849c
+    key: fg=#b4befe:bold
+  default: fg=#cdd6f4
+  data:
+    key: fg=#b4befe:bold
+    string: fg=#cdd6f4
+    "true": fg=#a6e3a1:bold
+    "false": fg=#1e1e2e:bold:bg=#f38ba8
+    number: fg=#cba6f7
+    "null": fg=#7f849c
+    quantity: fg=#cba6f7
+    duration: fg=#fab387
+    durationfresh: fg=#a6e3a1
+    ratio:
+      zero: fg=#7f849c
+      equal: fg=#a6e3a1
+      unequal: fg=#f9e2af
+  status:
+    success: fg=#a6e3a1:bold
+    warning: fg=#f9e2af:bold
+    error: fg=#1e1e2e:bold:bg=#f38ba8
+  table:
+    header: fg=#cdd6f4:bold
+    columns: fg=#cdd6f4
+  stderr:
+    default: fg=#cdd6f4
+    error: fg=#f38ba8:bold
+  describe:
+    key: fg=#b4befe:bold
+  apply:
+    created: fg=#a6e3a1
+    configured: fg=#f9e2af
+    unchanged: fg=#cdd6f4
+    dryrun: fg=#89dceb
+    fallback: fg=#cdd6f4
+  explain:
+    key: fg=#b4befe:bold
+    required: fg=#1e1e2e:bold:bg=#cdd6f4
+  options:
+    flag: fg=#b4befe:bold
+  version:
+    key: fg=#b4befe:bold

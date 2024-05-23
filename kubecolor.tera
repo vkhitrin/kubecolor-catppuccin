@@ -1,0 +1,59 @@
+---
+whiskers:
+  version: 2.0.0
+  matrix:
+    - flavor
+  filename: "catppuccin-{{ flavor.identifier }}.yaml"
+---
+{%- set palette = flavor.colors -%}
+preset: "{% if flavor.dark %}dark{% else %}light{% endif %}"
+theme:
+  base:
+    info: fg=#{{ palette.text.hex }}
+    primary: fg=#{{ palette.mauve.hex }}
+    secondary: fg=#{{ palette.sky.hex }}
+    success: fg=#{{ palette.green.hex }}:bold
+    warning: fg=#{{ palette.yellow.hex }}:bold
+    danger: fg=#{{ palette.base.hex }}:bold:bg=#{{ palette.red.hex }}
+    muted: fg=#{{ palette.overlay1.hex }}
+    key: fg=#{{ palette.lavender.hex }}:bold
+  default: fg=#{{ palette.text.hex }}
+  data:
+    key: fg=#{{ palette.lavender.hex }}:bold
+    string: fg=#{{ palette.text.hex }}
+    "true": fg=#{{ palette.green.hex }}:bold
+    "false": fg=#{{ palette.base.hex }}:bold:bg=#{{ palette.red.hex }}
+    number: fg=#{{ palette.mauve.hex }}
+    "null": fg=#{{ palette.overlay1.hex }}
+    quantity: fg=#{{ palette.mauve.hex }}
+    duration: fg=#{{ palette.peach.hex }}
+    durationfresh: fg=#{{ palette.green.hex }}
+    ratio:
+      zero: fg=#{{ palette.overlay1.hex }}
+      equal: fg=#{{ palette.green.hex }}
+      unequal: fg=#{{ palette.yellow.hex }}
+  status:
+    success: fg=#{{ palette.green.hex }}:bold
+    warning: fg=#{{ palette.yellow.hex }}:bold
+    error: fg=#{{ palette.base.hex }}:bold:bg=#{{ palette.red.hex }}
+  table:
+    header: fg=#{{ palette.text.hex }}:bold
+    columns: fg=#{{ palette.text.hex }}
+  stderr:
+    default: fg=#{{ palette.text.hex }}
+    error: fg=#{{ palette.red.hex }}:bold
+  describe:
+    key: fg=#{{ palette.lavender.hex }}:bold
+  apply:
+    created: fg=#{{ palette.green.hex }}
+    configured: fg=#{{ palette.yellow.hex }}
+    unchanged: fg=#{{ palette.text.hex }}
+    dryrun: fg=#{{ palette.sky.hex }}
+    fallback: fg=#{{ palette.text.hex }}
+  explain:
+    key: fg=#{{ palette.lavender.hex }}:bold
+    required: fg=#{{ palette.base.hex }}:bold:bg=#{{ palette.text.hex }}
+  options:
+    flag: fg=#{{ palette.lavender.hex }}:bold
+  version:
+    key: fg=#{{ palette.lavender.hex }}:bold
