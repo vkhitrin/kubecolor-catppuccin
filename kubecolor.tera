@@ -14,7 +14,7 @@ theme:
     secondary: fg=#{{ palette.sky.hex }}
     success: fg=#{{ palette.green.hex }}:bold
     warning: fg=#{{ palette.yellow.hex }}:bold
-    danger: fg=#{{ palette.base.hex }}:bold:bg=#{{ palette.red.hex }}
+    danger: fg=#{{ palette.red.hex }}:bold
     muted: fg=#{{ palette.overlay1.hex }}
     key: fg=#{{ palette.lavender.hex }}:bold
   default: fg=#{{ palette.text.hex }}
@@ -22,7 +22,7 @@ theme:
     key: fg=#{{ palette.lavender.hex }}:bold
     string: fg=#{{ palette.text.hex }}
     "true": fg=#{{ palette.green.hex }}:bold
-    "false": fg=#{{ palette.base.hex }}:bold:bg=#{{ palette.red.hex }}
+    "false": fg=#{{ palette.red.hex }}:bold
     number: fg=#{{ palette.mauve.hex }}
     "null": fg=#{{ palette.overlay1.hex }}
     quantity: fg=#{{ palette.mauve.hex }}
@@ -35,7 +35,7 @@ theme:
   status:
     success: fg=#{{ palette.green.hex }}:bold
     warning: fg=#{{ palette.yellow.hex }}:bold
-    error: fg=#{{ palette.base.hex }}:bold:bg=#{{ palette.red.hex }}
+    error: fg=#{{ palette.red.hex }}:bold
   table:
     header: fg=#{{ palette.text.hex }}:bold
     columns: fg=#{{ palette.text.hex }}
@@ -52,7 +52,7 @@ theme:
     fallback: fg=#{{ palette.text.hex }}
   explain:
     key: fg=#{{ palette.lavender.hex }}:bold
-    required: fg=#{{ palette.base.hex }}:bold:bg=#{{ palette.text.hex }}
+    required: fg=#{{ palette.base.hex }}:bold
   options:
     flag: fg=#{{ palette.lavender.hex }}:bold
   version:

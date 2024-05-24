@@ -6,7 +6,7 @@ theme:
     secondary: fg=#89dceb
     success: fg=#a6e3a1:bold
     warning: fg=#f9e2af:bold
-    danger: fg=#1e1e2e:bold:bg=#f38ba8
+    danger: fg=#f38ba8:bold
     muted: fg=#7f849c
     key: fg=#b4befe:bold
   default: fg=#cdd6f4
@@ -14,7 +14,7 @@ theme:
     key: fg=#b4befe:bold
     string: fg=#cdd6f4
     "true": fg=#a6e3a1:bold
-    "false": fg=#1e1e2e:bold:bg=#f38ba8
+    "false": fg=#f38ba8:bold
     number: fg=#cba6f7
     "null": fg=#7f849c
     quantity: fg=#cba6f7
@@ -27,7 +27,7 @@ theme:
   status:
     success: fg=#a6e3a1:bold
     warning: fg=#f9e2af:bold
-    error: fg=#1e1e2e:bold:bg=#f38ba8
+    error: fg=#f38ba8:bold
   table:
     header: fg=#cdd6f4:bold
     columns: fg=#cdd6f4
@@ -44,7 +44,7 @@ theme:
     fallback: fg=#cdd6f4
   explain:
     key: fg=#b4befe:bold
-    required: fg=#1e1e2e:bold:bg=#cdd6f4
+    required: fg=#1e1e2e:bold
   options:
     flag: fg=#b4befe:bold
   version:
